@@ -1,6 +1,6 @@
 Manifests
 ================================
-These are various local manifests for my linux builds. [cm,omni,RR etc.]
+These are various local manifests for my android builds. [cm,omni,RR etc.]
 
 
 ###Usage###
@@ -22,5 +22,5 @@ Now get the right file.
 
 ```bash
 # Get the local manifest.
-$ git clone git://gihthub.com/HaoZeke/Manifests/z3/omni.git
+$ wget https://github.com/HaoZeke/Manifests/blob/master/z3/omni/z3_omni.xml
 ```
