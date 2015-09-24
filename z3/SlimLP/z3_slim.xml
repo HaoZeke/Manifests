@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+ <!-- Remotes -->
+   <remote name="bitbucket" 
+          fetch="https://bitbucket.org/" />
+
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
+<!--My removed/needed stuff  -->
+  <remove-project name="SlimRoms/bootable_recovery" />
+  <project path="bootable/recovery" name="XperiaMultiROM/android_bootable_recovery" remote="github" revision="master" />
+  <project name="Tasssadar/libbootimg" path="system/extras/libbootimg" remote="github" revision="master"/>
+  <project name="Myself5/multirom" path="system/extras/multirom" remote="github" revision="old"/>
+  <project name="Tasssadar/multirom_adbd" path="system/extras/multirom/adbd" remote="github" revision="master"/>
+  <project name="Myself5/kexec-tools" path="system/extras/multirom/kexec-tools" remote="github" revision="master"/>
+
+<!--Vendors-->
+<project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-12.1"/>
+
+
+
+
+<!--Dead-->
+
+
+
+<!--Misc needs-->
+
+
+<!--Devices commons-->
+
+  <project name="SlimRoms/device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="lp5.1" />
+  <project name="SlimRoms/device_sony_common" path="device/sony/common" remote="github" revision="lp5.1" />
+  <project name="SlimRoms/device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="lp5.1" />
+
+
+<!--Kernels -->
+  <project name="SlimRoms/kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="lp5.1" />
+
+<!--Sony Sensors-->
+
+  <project name="CyanogenMod/android_hardware_sony_thermanager" path="hardware/sony/thermanager" remote="github" revision="cm-12.1" />
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-12.1" />
+
+
+<!--Defunct
+
+  <project name="android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="omnirom" revision="android-5.1" />
+-->
+
+
+
+<!--Z3-->
+
+  <project name="Alx31/device_sony_z3" path="device/sony/z3" remote="github" revision="lp5.1" />
+
+
+
+<!--Slim Exchanges-->
+
+  
+
+<!--Slim Removals
+  <remove-project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
+  <remove-project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
+  <remove-project path="packages/wallpapers/MagicSmoke" name="platform/packages/wallpapers/MagicSmoke" />
+  <remove-project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" />
+  <remove-project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
+  <remove-project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
+  <remove-project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="github" revision="cm-12.1" />
+-->
+</manifest>
+
